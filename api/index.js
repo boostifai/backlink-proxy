@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const targetUrl = 'https://script.google.com/macros/s/AKfycbx9ksu-7mHfCcZ-uNJwPzarh5VoDjLA6fx3_D-4ymWnTe6Se4w34zULcBdrHGyCxj_t/exec';
+  const targetUrl = 'https://script.google.com/macros/s/AKfycbyKIj4W_-DOQfKU1FaW9N7nWGZWKM8lbx8Xz-r2Asm3KiiqtoDlfGiFwP83J_Bf7sI/exec?view=form';
 
   const url = new URL(targetUrl);
   Object.entries(req.query).forEach(([key, value]) => {
